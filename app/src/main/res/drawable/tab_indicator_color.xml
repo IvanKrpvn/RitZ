@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- UNSELECTED TAB STATE -->
+    <item android:state_selected="false" android:state_pressed="false">
+        <layer-list>
+            <!-- Bottom indicator color for the UNSELECTED tab state -->
+            <item
+                android:bottom="-45dp" android:left="2.5dp" android:right="2.5dp">
+
+
+                <shape android:shape="line">
+                    <stroke android:color="@color/tab_color_transparent" android:width="2dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,38 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_transparent_image"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clipChildren="false"
+            android:clipToPadding="false" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_24sdp"
+            android:layout_height="2dp"
+            android:layout_gravity="center_horizontal"
+            app:tabBackground="@drawable/tab_indicator_size"
+            app:tabIndicatorAnimationDuration="1000"
+            app:tabIndicatorAnimationMode="elastic"
+            app:tabIndicatorColor="@color/tab_color"
+            app:tabIndicatorFullWidth="true"
+            app:tabMode="fixed" />
+
+    </FrameLayout>
+</layout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewPager.onBoard.fragments.yourShipmentIsInsured.YourShipmentIsInsured"
+    app:layoutDescription="@xml/fragment_your_shipment_is_insured_scene">
+
+    <TextView
+        android:id="@+id/your_shipment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:fontFamily="@font/noto_sans"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="-6sp"
+        android:text="@string/your_shipment_text"
+        android:textAppearance="@style/onBoarding_textTitle_style"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginTop="@dimen/_68sdp" />
+
+    <TextView
+        android:id="@+id/sign_the_receiving"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginHorizontal="@dimen/_24sdp"
+        android:text="@string/sign_the_receiving_text"
+        android:textAppearance="@style/onBoarding_textSmall_style"
+        android:lineSpacingExtra="1sp"
+        android:translationY="-0.47sp"
+        android:gravity="center_horizontal|top"
+        android:fontFamily="@font/noto_sans"
+        app:layout_constraintTop_toBottomOf="@id/your_shipment"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/shipmentImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:src="@drawable/shipment_img"
+        app:layout_constraintBottom_toTopOf="@id/buttonNext"
+        app:layout_constraintTop_toBottomOf="@id/sign_the_receiving" />
+
+    <TextView
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center_horizontal|top"
+        android:text="NEXT"
+        android:textColor="#E56455"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/shipmentImg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

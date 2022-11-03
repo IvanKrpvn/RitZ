@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto"
+    >
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@+id/start"
+        motion:duration="1000"
+        motion:autoTransition="animateToEnd"
+
+        >
+
+
+
+
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+
+
+
+
+
+        <Constraint
+            android:id="@+id/track_drive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="88dp"
+            android:fontFamily="@font/noto_sans"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="-6sp"
+            android:text="@string/create_an_o_title_text"
+            android:textAppearance="@style/onBoarding_textTitle_style"
+            motion:layout_constraintHorizontal_bias="0.501"
+            motion:layout_constraintLeft_toLeftOf="parent"
+            motion:layout_constraintRight_toRightOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_goneMarginTop="@dimen/_68sdp"
+
+
+
+            >
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@color/grey_transparent"
+                />
+
+
+
+        </Constraint>
+
+
+        <Constraint
+            android:id="@+id/track_the_m"
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_36sdp"
+            android:fontFamily="@font/noto_sans"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="1sp"
+            android:text="@string/create_an_o_small_text"
+            android:textAppearance="@style/onBoarding_textSmall_style"
+            android:translationY="-0.47sp"
+            motion:layout_constraintLeft_toLeftOf="parent"
+            motion:layout_constraintRight_toRightOf="parent"
+            motion:layout_constraintTop_toBottomOf="@id/track_drive"
+
+            >
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@color/grey_transparent"
+                />
+
+
+        </Constraint>
+
+
+
+        <Constraint
+
+
+            android:id="@+id/trackImg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            motion:layout_constraintTop_toBottomOf="@id/track_the_m"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:alpha="0"
+            motion:layout_constraintBottom_toTopOf="@+id/buttonNext">
+
+            <CustomAttribute
+                motion:attributeName="crossfade"
+                motion:customFloatValue="0"
+                />
+
+
+        </Constraint>
+        <Constraint
+            android:layout_height="@dimen/_40sdp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.493"
+            motion:layout_constraintLeft_toLeftOf="parent"
+            motion:layout_constraintRight_toRightOf="parent"
+            android:layout_width="@dimen/_260sdp"
+            android:id="@+id/buttonNext" />
+    </ConstraintSet>
+
+
+
+
+    <ConstraintSet android:id="@+id/end">
+
+
+
+
+
+        <Constraint
+            android:id="@+id/track_drive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="68dp"
+            android:fontFamily="@font/noto_sans"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="-6sp"
+            android:text="@string/create_an_o_title_text"
+            android:textAppearance="@style/onBoarding_textTitle_style"
+            motion:layout_constraintHorizontal_bias="0.501"
+            motion:layout_constraintLeft_toLeftOf="parent"
+            motion:layout_constraintRight_toRightOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_goneMarginTop="@dimen/_68sdp"
+
+
+
+            >
+
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@color/dark_grey"
+                />
+        </Constraint>
+
+
+        <Constraint
+            android:id="@+id/track_the_m"
+            android:layout_width="@dimen/_170sdp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="@font/noto_sans"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="1sp"
+            android:text="@string/create_an_o_small_text"
+            android:textAppearance="@style/onBoarding_textSmall_style"
+            android:translationY="-0.47sp"
+            motion:layout_constraintLeft_toLeftOf="parent"
+            motion:layout_constraintRight_toRightOf="parent"
+            motion:layout_constraintTop_toBottomOf="@id/track_drive"
+
+            >
+
+            <CustomAttribute
+                motion:attributeName="textColor"
+                motion:customColorValue="@color/dark_grey"
+                />
+
+        </Constraint>
+
+
+
+        <Constraint
+
+
+            android:id="@+id/trackImg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            motion:layout_constraintTop_toBottomOf="@id/track_the_m"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:alpha="1"
+            >
+
+            <CustomAttribute
+                motion:attributeName="crossfade"
+                motion:customFloatValue="1"
+                />
+
+
+        </Constraint>
+    </ConstraintSet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</MotionScene>

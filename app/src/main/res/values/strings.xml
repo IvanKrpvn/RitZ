@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ViewPagerExperiment</string>
+    <string name="server_error">503 Error</string>
+    <string name="server_error_not_determined">Unexpected error</string>
+    <string name="server_not_answer">Сервер не отвечает, попробуйте позже</string>
+    <string name="error_btn_text">OK</string>
+
+
+    <string name="server_not_answer_not_determined">We are sorry, but you have to try this action later</string>
+    <string name="loading_">Loading...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_up_in_text">Sign up in the app</string>
+    <string name="you_can_reg_text">You can register as an individual or as a legal entity. If you are the legal entity, you can connect your managers</string>
+
+    <string name="create_an_o_small_text">Create an order by selecting the starting point and the delivery point</string>
+    <string name="create_an_o_title_text">Create an order</string>
+    <string name="delegate_an_text">Delegate an order</string>
+    <string name="you_can_ass">You can assign another person as the sender or recipient</string>
+    <string name="your_shipment_text">Your shipment is insured</string>
+    <string name="sign_the_receiving_text">Sign the receiving and shipment act of the vehicle</string>
+    <string name="track_drive_text">Track driver movement</string>
+    <string name="track_the_m_text">Track the movement of your order live</string>
+    <string name="get_code">Get Code</string>
+    <string name="sing_up">Sing up</string>
+    <string name="individual">INDIVIDUAL</string>
+    <string name="legal_entity">LEGAL ENTITY</string>
+    <string name="select_account">Select your account type</string>
+    <string name="verification">Enter verification code</string>
+    <string name="enter_code">Enter your Phone</string>
+    <string name="sing_in">SIGN IN</string>
+</resources>

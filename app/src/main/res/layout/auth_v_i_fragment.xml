@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_12sdp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:fontFamily="@font/noto_sans"
+            android:text="We've sent a code to your phone number:"
+            android:textColor="#323232"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/phone_number_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/noto_sans_bold"
+            android:text="+998977741415"
+            android:layout_marginTop="8dp"
+            android:textColor="#303030"
+            android:textSize="@dimen/_20sdp"
+            app:layout_constraintStart_toStartOf="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <com.github.gongw.VerifyCodeView
+            android:id="@+id/password_view"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            app:vcTextColor="@color/dark_grey"
+            app:vcTextCount="4"
+            app:vcTextSize="24sp"
+            app:vcDividerWidth="8dp"
+            app:vcWrapper="circle"
+            app:vcWrapperColor="#F0EFEA"
+            android:layout_marginTop="@dimen/_12sdp"
+            app:layout_constraintTop_toBottomOf="@+id/phone_number_text"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/red"
+            android:drawableRight="@drawable/red_arrow"
+            android:drawableTint="@color/white"
+            android:text="Next"
+            app:cornerRadius="@dimen/_18sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/password_view"
+            app:layout_constraintTop_toBottomOf="@+id/password_view" />
+
+        <TextView
+            android:id="@+id/time_limit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:fontFamily="@font/noto_sans"
+            android:text="You can resend the code in 25 seconds"
+            app:layout_constraintStart_toStartOf="@+id/button"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        <TextView
+            android:id="@+id/resend_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/noto_sans_bold"
+            android:text="Resend the code"
+            android:textAllCaps="true"
+            android:visibility="gone"
+            android:textColor="@color/red"
+            android:layout_marginTop="@dimen/_18sdp"
+            app:layout_constraintEnd_toEndOf="@+id/button"
+            app:layout_constraintStart_toStartOf="@+id/button"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

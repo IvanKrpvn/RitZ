@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/noto_sans_bold"
+            android:text="Ivan"
+            android:layout_marginTop="@dimen/_48sdp"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/_18sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lastNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/noto_sans_bold"
+            android:text="Ivanov"
+            android:textColor="@color/dark_grey"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:textSize="@dimen/_18sdp"
+            app:layout_constraintEnd_toEndOf="@+id/userName"
+            app:layout_constraintStart_toStartOf="@+id/userName"
+            app:layout_constraintTop_toBottomOf="@+id/userName" />
+
+        <TextView
+            android:id="@+id/mobile_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/noto_sans_bold"
+            android:text="+998977741415"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/_18sdp"
+            app:layout_constraintEnd_toEndOf="@+id/lastNameView"
+            app:layout_constraintStart_toStartOf="@+id/lastNameView"
+            app:layout_constraintTop_toBottomOf="@+id/lastNameView" />
+
+        <TextView
+            android:id="@+id/uin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rf4fg44fg4"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginTop="@dimen/_48sdp"
+            app:layout_constraintEnd_toEndOf="@+id/saved"
+            app:layout_constraintStart_toStartOf="@+id/saved"
+            app:layout_constraintTop_toBottomOf="@+id/saved" />
+
+        <TextView
+            android:id="@+id/saved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/noto_sans"
+            android:text="Logged success!"
+            android:textColor="#0F871F"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:textSize="@dimen/_18sdp"
+            app:layout_constraintEnd_toEndOf="@+id/mobile_number"
+            app:layout_constraintStart_toStartOf="@+id/mobile_number"
+            app:layout_constraintTop_toBottomOf="@+id/mobile_number" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
