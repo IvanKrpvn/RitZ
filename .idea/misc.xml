@@ -38,6 +38,40 @@
         <entry key="..\:/Users/yoqub/Desktop/ViewPagerExperiment/app/src/main/res/layout/loading_item.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/yoqub/Desktop/ViewPagerExperiment/app/src/main/res/layout/progress_layout.xml" value="0.264" />
         <entry key="..\:/Users/yoqub/Desktop/ViewPagerExperiment/app/src/main/res/layout/user_info_fragment.xml" value="0.2" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout-v23/fragment_authorization_by_phone_of_an_individual.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout-v23/fragment_verify_passowrd.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/activity_main.xml" value="0.17028985507246377" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/auth_by_phone_fragment.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/auth_company_fragment.xml" value="0.18" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/auth_company_password_recovery_fragment.xml" value="0.2" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/auth_individual_fragment.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/auth_splash_fragment.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/auth_v_i_fragment.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/confirm_email_regist_company.xml" value="0.1" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/enter_detials_fragment.xml" value="0.22" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/error_popup_menu.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_auth_company_recover_password.xml" value="0.1" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_auth_password_recover_company.xml" value="0.22" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_authorization.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_authorization_by_phone_of_an_individual.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_create_an_order.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_delegate_an_order.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_enter_verification_code.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_enter_your_phone.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_on_boarding.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_password_recover.xml" value="0.17028985507246377" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_register_and_authorization_pager.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_register_by_phone_of_an_individual.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_registr_enter_company .xml" value="0.25" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_sign_up_in_the_app.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_start_screen.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_track_driver_movement.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_verify_passowrd.xml" value="0.22" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_verify_passowrd_company.xml" value="0.22" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/fragment_your_shipment_is_insured.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/loading_item.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/progress_layout.xml" value="0.196875" />
+        <entry key="..\:/Новая папка/ShoppingList/android_client/app/src/main/res/layout/user_info_fragment.xml" value="0.196875" />
       </map>
     </option>
   </component>

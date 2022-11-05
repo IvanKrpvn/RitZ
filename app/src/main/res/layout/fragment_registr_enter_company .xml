@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        tools:context=".ui.autorization.AuthorizationByPhoneOfAnIndividualFragment">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/company_name_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginHorizontal="@dimen/_18sdp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="31dp"
+            android:hint="Company name"
+            android:text="gg"
+            android:textColorHint="@color/grey"
+            android:textSize="@dimen/_14sdp"
+            app:boxCornerRadiusBottomEnd="6dp"
+            app:boxCornerRadiusBottomStart="6dp"
+            app:boxCornerRadiusTopEnd="6dp"
+            app:boxCornerRadiusTopStart="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edit_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_18sdp"
+            android:layout_marginStart="31dp"
+            android:layout_marginEnd="31dp"
+            android:hint="Text ID number"
+            android:text="gg"
+            android:textColorHint="@color/grey"
+            android:textSize="@dimen/_14sdp"
+            app:boxCornerRadiusBottomEnd="6dp"
+            app:boxCornerRadiusBottomStart="6dp"
+            app:boxCornerRadiusTopEnd="6dp"
+            app:boxCornerRadiusTopStart="6dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/company_name_layout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/personal_checkBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="I agree to the processing of my personal data in accordance with the Privacy Policy and accept the terms of the User Agreement and the Offer *"
+            android:textColor="#A64E4E4E"
+            app:layout_constraintEnd_toEndOf="@+id/edit_layout"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/edit_layout"
+            app:layout_constraintTop_toBottomOf="@+id/edit_layout" />
+
+        <CheckBox
+            android:id="@+id/recieve_news_checkBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:text="@string/i_agre"
+            android:textColor="#A64E4E4E"
+            app:layout_constraintEnd_toEndOf="@+id/edit_layout"
+            app:layout_constraintStart_toStartOf="@+id/edit_layout"
+            app:layout_constraintTop_toBottomOf="@+id/personal_checkBox" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button"
+            style="@style/ButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:drawableEnd="@drawable/red_arrow"
+            android:drawableTint="@color/white"
+            android:text="Next step"
+            app:layout_constraintEnd_toEndOf="@+id/recieve_news_checkBox"
+            app:layout_constraintStart_toStartOf="@+id/recieve_news_checkBox"
+            app:layout_constraintTop_toBottomOf="@+id/recieve_news_checkBox" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

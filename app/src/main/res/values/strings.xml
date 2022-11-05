@@ -29,4 +29,8 @@
     <string name="verification">Enter verification code</string>
     <string name="enter_code">Enter your Phone</string>
     <string name="sing_in">SIGN IN</string>
+    <string name="enter_email">Enter your email and get verification code</string>
+    <string name="code_email">We\'ve sent a code to your email:</string>
+    <string name="i_agre">I agree to receive the newsletter with news, promotions and discounts</string>
+    <string name="confirm">Confirm Email</string>
 </resources>
